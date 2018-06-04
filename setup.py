@@ -26,6 +26,7 @@ setup(
     url='http://pybee.org/beefore',
     keywords=['lint', 'merge', 'dco'],
     packages=find_packages(exclude=['tests']),
+    python_requires='==3.4',
     entry_points={
         'console_scripts': [
             'beefore = beefore.command:main',
